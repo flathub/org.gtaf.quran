@@ -203,7 +203,7 @@ modules:
     sources:
       - type: archive
         dest: data
-        url: https://direct-download-apps.s3.us-east-2.amazonaws.com/quran/quran_0.5.7.tar.gz
-        sha256: eeee7b9683db8d73a971998ca186b9a6d689e5dd2a4a0707a607b042931df8e2
+        url: https://direct-download-apps.s3.us-east-2.amazonaws.com/quran/quran_0.5.8.tar.gz
+        sha256: b25fef44a1d48dd162e6c6c10a48fd57a47492054b712fa61f963b679183cbc5
       - type: file
         path: org.gtaf.quran.appdata.xml
