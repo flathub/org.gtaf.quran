@@ -77,7 +77,6 @@
             <li>Word by Word Audio Playback</li>
 
             <li>Read in Uthmanic / Indopak script</li>
-            <li>Read Tafsirs in Tafsir view</li>
             <li>Quran Dictionary</li>
             <li>Various fonts and multiple themes, including Night mode</li>
             <li>Autoscroll feature</li>
@@ -128,9 +127,7 @@
     </screenshots>
     <content_rating type="oars-1.1" />
     <releases>
+        <release date="2024-01-07" version="0.5.8" />
         <release date="2024-01-01" version="0.5.7" />
-        <description>
-            <p>Initial Release</p>
-        </description>
     </releases>
 </component>
