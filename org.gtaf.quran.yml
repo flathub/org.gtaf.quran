@@ -203,8 +203,8 @@ modules:
     sources:
       - type: archive
         dest: data
-        url: https://direct-download-apps.s3.us-east-2.amazonaws.com/quran/quran_0.5.9_x86_64.tar.gz
-        sha256: 5d6f8e0384bacb413c35debef424d02007a66cd3471c6fe6d8a902c04efd6ed0
+        url: https://direct-download-apps.s3.us-east-2.amazonaws.com/quran/quran_0.5.11_x86_64.tar.gz
+        sha256: 2dea85c6b7ec1f95405a9c9724008be759d8688124aa332e459927d41752d68b
         only-arches:
           - x86_64
       - type: archive
