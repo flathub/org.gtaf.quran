@@ -58,8 +58,7 @@ modules:
     cleanup:
       - /include
       - /lib/pkgconfig
-    config-opts:
-      --disable-static
+    config-opts: --disable-static
     sources:
       - type: git
         url: https://github.com/libass/libass.git
@@ -94,8 +93,8 @@ modules:
         url: https://github.com/FFmpeg/FFmpeg.git
         mirror-urls:
           - https://git.ffmpeg.org/ffmpeg.git
-        commit: d4ff0020b40b524a490cf62eccbd3a318f4c0e58
-        tag: n6.1
+        commit: e38092ef9395d7049f871ef4d5411eb410e283e0
+        tag: n6.1.1
         x-checker-data:
           type: git
           tag-pattern: ^n([\d.]{3,7})$
@@ -113,8 +112,8 @@ modules:
         url: https://code.videolan.org/videolan/libplacebo.git
         mirror-urls:
           - https://github.com/haasn/libplacebo.git
-        tag: v6.338.1
-        commit: 2805a0d01c029084ab36bf5d0e3c8742012a0b27
+        tag: v6.338.2
+        commit: 64c1954570f1cd57f8570a57e51fb0249b57bb90
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$
@@ -136,8 +135,8 @@ modules:
         sources:
           - type: git
             url: https://github.com/google/shaderc.git
-            tag: v2023.7
-            commit: 3882b16417077aa8eaa7b5775920e7ba4b8a224d
+            tag: v2024.0
+            commit: d792558a8902cb39b1c237243cc4edab226513a5
             x-checker-data:
               type: git
               tag-pattern: ^v(\d{4}\.\d{1,2})$
@@ -159,8 +158,8 @@ modules:
             #  tag-pattern: ^sdk-([\d.]+)$
           - type: git
             url: https://github.com/KhronosGroup/glslang.git
-            tag: 13.1.1
-            commit: 36d08c0d940cf307a23928299ef52c7970d8cee6
+            tag: 14.0.0
+            commit: a91631b260cba3f22858d6c6827511e636c2458a
             dest: third_party/glslang
             x-checker-data:
               type: git
